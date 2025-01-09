@@ -5,6 +5,7 @@ The main objective of this project is to evaluate and model forced isotropic tur
 •	Time (time): The turbulence simulation's time series.
 •	Energy (energy): Turbulent kinetic energy is a measurement of the energy present in turbulence.
 •	Taylor Microscale Reynolds Number (Re_lambda): The strength of turbulence is described by the dimensionless Taylor Microscale Reynolds Number (Re_lambda).
+
 The aim is to predict Reynolds number (Re_lambda) based on the given time and energy features using various ML techniques. 
 
 Dataset Description: 
@@ -13,6 +14,7 @@ The dataset used in this project contains the following columns:
 •	energy: Turbulent kinetic energy, a continuous feature.
 •	Re_lambda: Taylor microscale Reynolds number, the target variable for prediction.
 Data source: https://turbulence.idies.jhu.edu/datasets/homogeneousTurbulence/isotropic
+
 The data is organized as a time series and comes from forced isotropic turbulence simulations 
 
 Challenges Addressed:
